@@ -22,7 +22,7 @@ form.addEventListener("submit", function(evento){
         console.log(rut.value);
         form.style.display="none";
         msj.style.display = "block";
-        msj.innerHTML="hemos recibido sus datos, pronto se comunicaran con usted";
+        msj.innerHTML= "hemos recibido sus datos, pronto nos estaremos comunicando con usted";
         msj.style.color="red";
     }else{
         alert("Debe haber cometido un error en uno o mas campos: \n-rut invalido \n-digito verificador invalido\n-lenguaje de programacion sin seleccionar\n-años de experiencia sin seleccionar ");
