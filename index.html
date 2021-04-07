@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Nombre: Nicolas Espinoza-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="description" content="Formulario tarea">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css\estilos.css">
+    </head>
+    <body>
+        <div id="mensaje"></div>
+        <form id="formulario" method="POST">
+            <ul>
+                <li>
+                    <label class="name" for="Nombre" style="">Nombre</label>
+                    <input id="nombre" class="caja" type="text" required >
+                </li>
+                <li>
+                    <label class="name" for="Apellidos" style="">Apellidos</label>
+                    <input class="caja" type="text" required>
+                </li>
+                <li>
+                    <label class="name" for="Rut">Rut</label>
+                    <input class="caja" type="text" id="rut" required maxlength="8" placeholder="sin puntos" size="11px" >
+                    <label for="guion"> - </label>
+                    <input type="text" id="digitoverificador" required maxlength="1" size="2px" placeholder="digito">
+                </li>
+                <li>
+                    <label class="name" for="correo">Correo</label>
+                    <input class="caja" type="email" required>
+                </li>
+                <li>
+                    <label class="name" for="telefono">Telefono Movil</label>
+                    <input class="caja" type="text" required>
+                </li>
+                <li>
+                    <label for="description">- Descripcion personal</label><br>
+                    <input type="text" id="descripcion">
+                </li>
+                <li>
+                    <label class="nivel" for="nivel">- Cual es su nivel con la programacion</label><br>
+                    <input class="range" type="range">
+                </li>
+                <li>
+                    <label for="lenguajes">- Selecciona 1 o mas lenguajes de programacion de interes</label>
+                    <br>
+                    <input class="check" type="checkbox" >PHP<br>
+                    <input class="check" type="checkbox" >C# <br>
+                    <input class="check" type="checkbox" >C++ <br>
+                    <input class="check" type="checkbox" >Python <br>
+                    <input class="check" type="checkbox" >Java <br>
+                    <input class="check" type="checkbox" >Typescript <br>
+                </li>
+                <li>
+                    <label for="añosExperiencia">- Seleccione sus años de experiencia laboral</label><br>
+                    <input type="radio" >1. 
+                    <input type="radio" >2. 
+                    <input type="radio" >3. 
+                    <input type="radio" >4. 
+                    <input type="radio" >5. 
+
+                </li>
+                <li>
+                    <button type="submit" id="submit">Enviar Informacion</button>
+                    <button type="reset" id="reset">Borrar formulario</button>
+                </li>
+            </ul>
+        </form>
+
+        <script src="js/app.js" async defer></script>
+    </body>
+</html>

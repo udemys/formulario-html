@@ -1,0 +1,36 @@
+.name {
+    position: relative;
+    margin: 10px 0 0 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+#digitoverificador {
+    margin: 10px 0 0 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#mensaje {
+    display: none;
+}
+
+.check {
+    position: relative;
+    margin: 10px 0 0 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+#descripcion {
+    width: 250px;
+    height: 100px;
+}
+
+.caja {
+    position: relative;
+    align-items: right;
+    margin: 10px 0 0 10px;
+    padding: 5px 5px 5px 5px;
+}
